@@ -132,7 +132,7 @@ body {
   margin: 20px auto 0;
   line-height: 1.6;
 }
-.grids{
+.grids,.grids1{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,7 +143,7 @@ body {
 .inner-grid{
   background-color: #fdd800;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 .btn-type{
   display: flex;
@@ -158,6 +158,37 @@ body {
   color:#fdd800;
   padding: 13px;
   border: none;
+}
+.scolage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-top:20px;
+  text-align: center;
+  background-image: linear-gradient(to bottom,white,#a682cc);
+}
+.scolage h1{
+  font-size: 26px;
+  font-weight: bold;
+  color: #5f259f;
+  line-height: 1.5; 
+}
+.scolage p{
+  font-family: "Italic, bold, sans-serif";
+}
+.templates,.templates1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  margin-top:20px;
+
+}
+.inner-template{
+  text-align: center;
+  padding: 10px;
 }
 
 /* Media Queries */
@@ -194,5 +225,25 @@ body {
   .btn-yellow {
     padding: 10px 25px;
   }
+  .grids,.grids1{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+  }
+  .grids1{
+    margin-top: -30px;
+  }
+  .scolage{
+    display: flex;
+    flex-direction: column;
+    padding:30px;
+  }
+  .templates,.templates1{
+  display: flex;
+  flex-direction: column;
+  padding:30px;
+  margin-top: -30px;
+}
+  
 }
 
